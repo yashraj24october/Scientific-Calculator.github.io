@@ -1,6 +1,6 @@
 # <b><center> SCIENTIFIC CALCULATOR
 ------
-In this project, i have developed a Fully working `Scientific Calculator` that supports almost all arithmetic and trigonometric calculations with light and dark mode feature..
+<p>In this project, i have developed a Fully working `Scientific Calculator` that supports almost all arithmetic and trigonometric calculations with light and dark mode feature..
 
  `[Project Link]`[link]
 
@@ -42,8 +42,9 @@ In Dark Mode:
 ## <br>Technologies Used
 ____
 
-<img src="html,css,js.png
-">
+* HTML5
+* CSS3
+* JavaScript
 
 
 
