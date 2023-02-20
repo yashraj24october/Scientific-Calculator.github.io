@@ -1,4 +1,4 @@
-# <b><center> SCIENTIFIC CALCULATOR
+# <b>  SCIENTIFIC CALCULATOR 
 ------
 <p>In this project, i have developed a Fully working `Scientific Calculator` that supports almost all arithmetic and trigonometric calculations with light and dark mode feature..
 
@@ -22,7 +22,7 @@ _________
 
 * Sweet Sound on each key press
 * Toggle button on top-right corner of  screen for Dark and Light mode switching that gives attractive experience of using calculator.
-* Automatically changing Background of screen
+* Automatic change of Background image of screen
 
 
 ________
