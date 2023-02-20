@@ -1,0 +1,312 @@
+* {
+        margin: 0;
+        padding: 0;
+    }
+    #casio {
+        display: inline-block;
+        margin-bottom: 12px;
+        border: 2px solid red;
+        width: 125px;
+        padding: 5px;
+        border-radius: 5px;
+        animation-name: name;
+        animation-iteration-count: infinite;
+        animation-duration: 15s;
+        animation-delay: 0s;
+    }
+    @keyframes name {
+        0% {
+            border-radius: 0px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, red, yellow);
+            border-image-slice: 1;
+        }
+        15% {
+            border-radius: 8px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, yellow, red);
+            border-image-slice: 1;
+        }
+        30% {
+            border-radius: 0px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, pink, rgb(228, 51, 7));
+            border-image-slice: 1;
+        }
+        45% {
+            border-radius: 8px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, green, white);
+            border-image-slice: 1;
+        }
+        60% {
+            border-radius: 0px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, blue, green);
+            border-image-slice: 1;
+        }
+        75% {
+            border-radius: 8px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, yellow, red);
+            border-image-slice: 1;
+        }
+        90% {
+            border-radius: 0px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, rgb(173, 42, 64), rgb(156, 15, 93));
+            border-image-slice: 1;
+        }
+        100% {
+            border-radius: 8px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, white, slateblue);
+            border-image-slice: 1;
+        }
+    }
+     body {
+        height: 100vh;
+        width: 100vw;
+        background: transparent; 
+         background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        animation-name: background_change1;
+        animation-iteration-count: infinite;
+        animation-duration: 15s;
+        animation-delay: 0s; 
+    }
+
+    @keyframes background_change1 {
+        0% {
+            background: url(nature4.jpg);
+        }
+        20% {
+            background: url(natureA.jpg);
+        }
+        40% {
+            background: url(nature4.jpg);
+        }
+        60% {
+            background: url(natureD.jpg);
+        }
+        80% {
+            background: url(nature4.jpg);
+        }
+        100% {
+            background: url(natureD.jpg);
+        }
+    }
+
+    .container { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        background: transparent;
+    }
+    .row1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    #calculatorBOX {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 10px 10px 18px #cbced1, -10px -10px 18px #ebe3e3;
+        animation-name: color_change;
+        animation-iteration-count: infinite;
+        animation-duration: 15s;
+        animation-delay: 0s;
+    }
+    @keyframes color_change {
+        0% {
+            border-radius: 0px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, red, blue);
+            border-image-slice: 1;
+        }
+        15% {
+            border-radius: 8px;
+            border-width: 5px;
+            border-style: solid;
+            border-image: linear-gradient(to right, yellow, red);
+            border-image-slice: 1;
+        }
+        30% {
+            border-radius: 0px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, pink, rgb(228, 51, 7));
+            border-image-slice: 1;
+        }
+        45% {
+            border-radius: 8px;
+            border-width: 5px;
+            border-style: solid;
+            border-image: linear-gradient(to right, green, white);
+            border-image-slice: 1;
+        }
+        60% {
+            border-radius: 0px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, blue, green);
+            border-image-slice: 1;
+        }
+        75% {
+            border-radius: 8px;
+            border-width: 5px;
+            border-style: solid;
+            border-image: linear-gradient(to right, yellow, red);
+            border-image-slice: 1;
+        }
+        90% {
+            border-radius: 0px;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(to right, rgb(173, 42, 64), rgb(156, 15, 93));
+            border-image-slice: 1;
+        }
+        100% {
+            border-radius: 8px;
+            border-width: 5px;
+            border-style: solid;
+            border-image: linear-gradient(to right, white, slateblue);
+            border-image-slice: 1;
+        }
+    }
+    #inputbox {
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        padding-right: .5em;
+        outline: none;
+        text-align: right;
+        height: 60px;
+        width: 97%;
+        margin-bottom: 10px;
+        animation-name: color_change1;
+        animation-iteration-count: infinite;
+        animation-duration: 15s;
+        animation-delay: 0s;
+    }
+    @keyframes color_change1 {
+        0% {
+            border: 2px solid red;
+        }
+        20% {
+            border: 2px solid yellow;
+        }
+        40% {
+            border: 2px solid green;
+        }
+        60% {
+            border: 2px solid pink
+        }
+        80% {
+            border: 2px solid skyblue;
+        }
+        100% {
+            border: 2px solid slateblue;
+        }
+    }
+    .row {
+        display: flex;
+    }
+    #equal{
+     background: rgb(236, 9, 47);
+    }
+    #CE {
+        background: rgb(156, 33, 54);
+    }
+    #mode {
+        background-color: black;
+        color: yellow;
+    }
+    #DEL {
+        background: rgb(111, 134, 236);
+    }
+    #AC {
+        background: rgba(202, 146, 179, 0.89);
+    }
+    #convert {
+        background-color: rgb(28, 151, 28);
+    }
+    equal {
+        background: rgb(107, 83, 212);
+    }
+    .btn {
+        cursor:pointer;
+        margin: 5px;
+        height: 30px;
+        width: 60px;
+        outline: none;
+        border: none;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #faf5f5;
+        text-align: center;
+    }
+    .btn:hover {
+        animation-name: color_change2;
+        animation-iteration-count: infinite;
+        animation-duration: 15s;
+        animation-delay: 0s;
+    }
+    .btn:active {
+        font-size: 20px;
+    }
+    @keyframes color_change2 {
+        0% {
+            border: 3px solid red;
+        }
+        20% {
+            border: 3px solid yellow;
+        }
+        40% {
+            border: 3px solid green;
+        }
+        60% {
+            border: 3px solid pink
+        }
+        80% {
+            border: 3px solid skyblue;
+        }
+        100% {
+            border: 3px solid slateblue;
+        }
+    }
+    .button {
+        margin-top: 12px;
+    }
+
+    #themeMode{
+    position:absolute;top:10px;right:20px; height:40px;
+    padding:5px;
+    background:skyblue;
+    border-radius:10px;
+    font-weight: 900;
+    border:2px double white;
+    }
+    #themeMode:hover{
+    background:black;
+    color:yellow;
+    box-shadow: 2px 2px 2px yellow,-2px -2px 2px yellow;
+    cursor:pointer;
+    }

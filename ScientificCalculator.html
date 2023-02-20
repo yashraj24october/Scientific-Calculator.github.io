@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <script defer src="calculator.js"></script>
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+    <div class="container">
+    <button id="themeMode">Switch to Dark mode</button>
+        <div id="calculatorBOX">
+        <div style="display:flex;justify-content:space-between"> <h3 id="casio">CASIO 350MS</h3>
+        <h3 id="rad" style="color:darkblue"></h3></div>
+            <div id="box">
+                <input id="inputbox" type="text" placeholder="0" readonly>
+            </div>
+            <div class="row row1">
+                <button class="btn" id="AC" onclick="audio.play()">AC</button>
+                <button id="mode" class="btn" onclick="audio.play()">Rad</button>
+                <button class="btn" id="DEL" onclick="audio.play()">DEL</button>
+            </div>
+            <div class="button">
+
+                <div class="row">
+
+                    <button id="percentage" class="btn" onclick="audio.play()">%</button>
+                    <button id="power" class="btn" onclick="audio.play()">x^y</button>
+                    <button id="leftbracket" class="btn" onclick="audio.play()">(</button>
+                    <button id="rightbracket" class="btn" onclick="audio.play()">)</button>
+                </div>
+                <div class="row">
+                    <button id="seven" class="btn" onclick="audio.play()">7</button>
+                    <button id="eight" class="btn" onclick="audio.play()">8</button>
+                    <button id="nine" class="btn" onclick="audio.play()">9</button>
+                    <button id="division" class="btn" onclick="audio.play()">/</button>
+                </div>
+                <div class="row">
+                    <button id="four" class="btn" onclick="audio.play()">4</button>
+                    <button id="five" class="btn" onclick="audio.play()">5</button>
+                    <button id="six" class="btn" onclick="audio.play()">6</button>
+                    <button id="plus" class="btn" onclick="audio.play()">+</button>
+
+                </div>
+                <div class="row">
+                    <button id="one" class="btn" onclick="audio.play()">1</button>
+                    <button id="two" class="btn" onclick="audio.play()">2</button>
+                    <button id="three" class="btn" onclick="audio.play()">3</button>
+                    <button id="multiply" class="btn" onclick="audio.play()">*</button>
+
+                </div>
+
+                <div class="row">
+                    <button id="zero" class="btn" onclick="audio.play()">0</button>
+                    <button id="decimal" class="btn" onclick="audio.play()">.</button>
+
+                    <button id="factorial" class="btn" onclick="audio.play()" style="font-family: cursive;">f</button>
+                    <button id="minus" class="btn" onclick="audio.play()">-</button>
+                </div>
+                <div class="row ">
+                    <button id="sin" class="btn" onclick="audio.play()" style="font-family: cursive;">sin</button>
+                    <button id="cos" class="btn" onclick="audio.play()" style="font-family: cursive;">cos</button>
+                    <button id="tan" class="btn" onclick="audio.play()" style="font-family: cursive;">tan</button>
+                    <button class="btn" id="equal" onclick="audio.play()" style="font-family: cursive;">=</button>
+                </div>
+
+            </div>
+            <div class=" row ">
+                <button id="squareroot" class="btn" onclick="audio.play()">sqrt</button>
+                <button id="log" class="btn" onclick="audio.play()">log</button>
+
+                <button id="pi" class="btn" onclick="audio.play()">pi</button>
+            </div>
+        </div>
+    </div>
+<h3 id="myQuote" style="margin-left:15%;border-radius:20px;padding:8px;position:absolute;bottom:15px;border:2px double white; color:white;background:rgba(0, 0, 255, 0.322);">Developed by YASH RAJ<br> &#169 2023</h3>
+</body>
+</html>
