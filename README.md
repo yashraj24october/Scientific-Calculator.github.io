@@ -1,6 +1,7 @@
 # <b>  SCIENTIFIC CALCULATOR 
 ------
 <p>In this project, i have developed a Fully working `Scientific Calculator` that supports almost all arithmetic and trigonometric calculations with light and dark mode feature..
+Using pure HTML,CSS and Javascript.
 
  `[Project Link]`[link]
 
