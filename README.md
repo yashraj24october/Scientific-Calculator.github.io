@@ -5,7 +5,7 @@ Using pure HTML,CSS and Javascript.
 
  `[Project Link]`[link]
 
-## Features
+## ⭐ Features
 ---- 
 User can:
 * Perform arithmetic operations like `addition, subtraction, multiplication, percentage(%),factorial,power and sqrt` of numerical values..
@@ -18,7 +18,7 @@ There are seperate buttons for numerical value from 0 to 9 and seperate button f
 * Special toggle button for switching between Degree and radian value calculation of trigonometric functions
 * There is equal (`=`) button, on clicking it, you can see your calculation result in top result box of calculator interface.
 
-Special Features
+## ⭐ Special Features
 _________
 
 * Sweet Sound on each key press
@@ -28,7 +28,7 @@ _________
 
 
 ________
-## <br> Screenshots
+## <br> 📷 Screenshots
 ----------------
 In Light Mode:
 
@@ -41,7 +41,7 @@ In Dark Mode:
 <img src="darkModeDesktop.png">
 
 
-## <br>Technologies Used
+## <br> Technologies Used
 ____
 
 * HTML5
