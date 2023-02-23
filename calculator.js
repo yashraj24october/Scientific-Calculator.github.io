@@ -96,10 +96,6 @@ inputBox.value+="tan(";
 }
 else if(e.target.id=="squareroot")
 {
-inputBox.value+=e.target.innerText;
-}
-else if(e.target.id=="squareroot")
-{
 inputBox.value+="sqrt(";
 }
 else if(e.target.id=="power")
