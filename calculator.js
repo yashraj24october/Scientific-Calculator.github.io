@@ -72,17 +72,13 @@ inputBox.value+='log(';
 }
 else if(e.target.id=="leftbracket")
 {
-inputBox.value+=e.target.innerText;
+inputBox.value+="*(";
 }
 else if(e.target.id=="rightbracket")
 {
 inputBox.value+=e.target.innerText;
 }
 else if(e.target.id=="decimal")
-{
-inputBox.value+=e.target.innerText;
-}
-else if(e.target.id=="leftbracket")
 {
 inputBox.value+=e.target.innerText;
 }
@@ -104,7 +100,7 @@ inputBox.value+=e.target.innerText;
 }
 else if(e.target.id=="squareroot")
 {
-inputBox.value+=e.target.innerText;
+inputBox.value+="sqrt(";
 }
 else if(e.target.id=="power")
 {
