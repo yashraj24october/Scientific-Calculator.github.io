@@ -129,7 +129,18 @@ else if(e.target.id=="AC")
 }
 else if(e.target.id=="equal")
 {
-showResult()
+if(inputBox.value==[])
+{
+inputBox.value=[];
+inputBox.value="No input!";
+inputBox.style.color="red";
+setTimeout(()=>{
+inputBox.value=[];
+},1500)
+}
+else
+{
+showResult();}
 }
 else if(e.target.id=="mode")
 {
