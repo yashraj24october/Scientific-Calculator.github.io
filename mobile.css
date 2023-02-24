@@ -236,6 +236,7 @@ height: 45px;
         width: 70px;
 color:white;
 font-size:4rem;
+Box-sizing:border-box;
     }
     #CE {
         background: rgb(156, 33, 54);
