@@ -232,6 +232,9 @@
     #equal{
      background: rgb(236, 9, 47);
 font-weight:bolder;
+height: 45px;
+        width: 70px;
+color:white;
     }
     #CE {
         background: rgb(156, 33, 54);
@@ -249,9 +252,7 @@ font-weight:bolder;
     #convert {
         background-color: rgb(28, 151, 28);
     }
-    equal {
-        background: rgb(107, 83, 212);
-    }
+    
     .btn {
         cursor:pointer;
         margin: 5px;
