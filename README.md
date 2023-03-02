@@ -3,7 +3,7 @@
 <p>In this project, i have developed a Fully working `Scientific Calculator` that supports almost all arithmetic and trigonometric calculations with light and dark mode feature..
 Using pure HTML,CSS and Javascript.
 
- Project Link: https://yashraj24october.github.io/Scientific-Calculator.github.io/
+ Website Link: https://yashraj24october.github.io/Scientific-Calculator.github.io/
 
 ## ⭐ Features
 ---- 
